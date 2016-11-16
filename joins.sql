@@ -8,6 +8,8 @@ drought boolean NOT NULL,
 city varchar(80)
 );
 
+-- ALTER TABLE from postico GUI, show the commands in the command line
+
 SELECT *
 FROM stats;
 
