@@ -19,6 +19,8 @@ VALUES ('1997-10-02', 20, true, 'Chicago'),
 ('2010-07-06', 0, false, 'Detroit'),
 ('2016-09-20', 3, true, 'Las Vegas');
 
+
+-- Aggregates -> sum, average, min, max
 SELECT count(id)
 FROM stats;
 
